@@ -1,0 +1,11 @@
+.catalog__title {
+  margin-top: 220px;
+  margin-bottom: 110px;
+}
+
+.catalog__container {
+  background-image: url("../img/dandelion-seeds_background.png");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  padding-top: 1px;
+}

@@ -1,0 +1,23 @@
+.compound {
+  margin-bottom: 25px;
+  color: #515076;
+  list-style-position: inside;
+}
+
+.compound__name {
+  display: block;
+  margin-bottom: 5px;
+
+}
+
+.compound__list {
+  margin-bottom: 5px;
+}
+
+.compound__item {
+  margin-bottom: 5px;
+}
+
+.compound__item:last-child {
+  margin-bottom: 0;
+}
