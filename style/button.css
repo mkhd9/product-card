@@ -1,0 +1,9 @@
+.color-button {
+  background-color: #515076;
+  color: #000;
+}
+
+.color-button_changed {
+  background-color: #330303;
+  color: #FFF;
+}
