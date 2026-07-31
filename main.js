@@ -62,7 +62,7 @@ logMessageBtn.addEventListener('click', () => {
 });
 
 function logMessage(message) {
-  alert('Сообщение в консоли');
+  alert(message);
   console.log(message);
 }
 
