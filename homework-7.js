@@ -4,7 +4,7 @@ function reportsTemperature(city, temperature) {
   console.log(`Сейчас в ${city} температура ${temperature} градусов по Цельсию`)
 }
 
-reportsTemperature('X', 'Y')
+reportsTemperature('Мекке', '40')
 
 
 // 4.
@@ -21,7 +21,7 @@ function speedometry(speed) {
   }
 }
 
-speedometry()
+speedometry(100000)
 
 
 // 5.
