@@ -39,3 +39,22 @@ const buy = budget => {
 }
 
 buy(1000)
+
+
+// 6
+
+function calculatesVolume(length, width, height) {
+  let volume = length * width * height
+  console.log('объем параллелепипеда:', volume)
+}
+
+calculatesVolume(5, 7, 3)
+
+
+// 7
+
+const PI = 3.14
+
+let company = 'HP'
+
+let counterReadings = 334636
