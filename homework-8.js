@@ -93,13 +93,13 @@ const books = [
   }
 ]
 
-books.push = {
+books.push({
   name: "Скотный двор",
   author: "Д.Оруэлл",
   year: 1945,
   coverСolor: "белый",
   genre: "Политическая аллегория"
-}
+})
 
 
 //9. массив с книгами из одной вселенной
@@ -135,9 +135,10 @@ const allBooks = [...books, ...AtlasShrugged]
 
 const addQuality = () => {
   const updatedAllBooks = allBooks.map(book => ({
-  ...book,
-  isOld: book.year < 1976
+    ...book,
+    isOld: book.year < 1976
   }))
+  return(updatedAllBooks)
 }
 
 addQuality()
