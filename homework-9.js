@@ -6,7 +6,7 @@ import { comments } from "./comments.js"
 
 const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
-const newNunbers = numbers.slice(5, 10)
+const newNunbers = numbers.filter(number => number >= 5)
 
 console.log(newNunbers)
 
@@ -22,13 +22,12 @@ console.log(findTool)
 
 // 4. Функция переворачивания массива
 
-function reversing (array) {
-  array.reverse()
-  console.log(array)
+const reverseArray = array => {
+  return ([...array].reverse())
 }
 
-reversing(numbers)
-reversing(powerTools)
+const reversNum = reverseArray(numbers)
+const reversTools = reverseArray(powerTools)
 
 
 // 7. Вывести в консоль массив тех комментариев, почта пользователей которых содержит ".com"
