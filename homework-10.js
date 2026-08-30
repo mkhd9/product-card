@@ -10,7 +10,7 @@ const products = document.querySelector('.products')
 const getCardsCount = () => {
   const count = Number(prompt('Сколько карточек отобразить? От 1 до 5'))
 
-  if (count >= 1 && count <= 5) {
+  if (Number.isInteger(count) && count >= 1 && count <= 5) {
     return count
   }
 
