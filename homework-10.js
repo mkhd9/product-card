@@ -41,7 +41,6 @@ const renderCards = cards => {
       compoundList.appendChild(compoundClone)
     })
 
-    cardClone.querySelector('.card__price-label').textContent = card.priceLabel
     cardClone.querySelector('.card__price-value').textContent = card.priceValue
 
     products.appendChild(cardClone)

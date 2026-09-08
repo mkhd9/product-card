@@ -10,7 +10,6 @@ export const cards = [
       'витамины С, А, РР, В И Е',
       'солнцезащитные компоненты'
     ],
-    priceLabel: 'Цена',
     priceValue: '2 750 ₽'
   },
   {
@@ -24,7 +23,6 @@ export const cards = [
       'минералы',
       'масла'
     ],
-    priceLabel: 'Цена',
     priceValue: '3 500 ₽'
   },
   {
@@ -38,7 +36,6 @@ export const cards = [
       'витамины С, А, РР, В И Е',
       'солнцезащитные компоненты'
     ],
-    priceLabel: 'Цена',
     priceValue: '1 650 ₽'
   },
   {
@@ -52,7 +49,6 @@ export const cards = [
       'минералы',
       'масла'
     ],
-    priceLabel: 'Цена',
     priceValue: '4 750 ₽'
   },
   {
@@ -66,7 +62,6 @@ export const cards = [
       'минералы',
       'масла'
     ],
-    priceLabel: 'Цена',
     priceValue: '7 520 ₽'
   }
 ]
