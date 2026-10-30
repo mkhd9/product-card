@@ -1,0 +1,95 @@
+/* Затемнение заднего фона */
+
+.overlay {
+  display: none;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+
+  background-color: rgba(0, 0, 0, 0.6);
+
+  z-index: 1000;
+}
+
+.overlay-showed {
+  display: block;
+}
+
+/* Модальное окно */
+
+.modal {
+  display: none;
+
+  position: fixed;
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+
+  width: 90%;
+  max-width: 450px;
+  max-height: 90vh;
+  overflow-y: auto;
+
+  padding: 30px;
+
+  background-color: #fff;
+  border-radius: 10px;
+
+  z-index: 1001;
+}
+
+.modal-showed {
+  display: block;
+}
+
+/* Содержимое */
+
+.modal__content {
+  position: relative;
+}
+
+.modal__title {
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+/* Кнопка закрытия */
+
+.modal__close-btn {
+  position: absolute;
+  top: -20px;
+  right: -15px;
+
+  border: none;
+  background: none;
+
+  font-size: 28px;
+  cursor: pointer;
+}
+
+/* Форма регистрации */
+
+.registration-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.registration-form input {
+  padding: 10px;
+
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.registration-form button {
+  margin-top: 15px;
+  padding: 12px;
+
+  cursor: pointer;
+}
